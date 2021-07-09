@@ -7,7 +7,6 @@ nvim_lsp.diagnosticls.setup {
     "yaml",
     "toml",
     "pandoc",
-    "ruby",
   },
   init_options = {
     linters = {
@@ -53,7 +52,6 @@ nvim_lsp.diagnosticls.setup {
     filetypes = {
       sh = "shellcheck",
       markdown = "markdownlint",
-      ruby = "standardrb"
     },
     formatters = {
       shfmt = {
