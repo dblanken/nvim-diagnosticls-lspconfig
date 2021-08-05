@@ -1,8 +1,7 @@
 languagetool = {
   command = 'languagetool',
-  args = {'--language', 'en-US'},
+  args = {'--language', 'en-US', '%file'},
   debounce = 200,
-  args = { '%file' },
   offsetLine = 0,
   offsetColumn = 1,
   sourceName = 'languagetool',
